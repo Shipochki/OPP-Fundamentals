@@ -37,6 +37,6 @@ namespace OPP_Fundamentals_Class_Diagram
 
 		public bool IsActive { get; set; }
 
-
+		public Role Role { get; set; }
 	}
 }
