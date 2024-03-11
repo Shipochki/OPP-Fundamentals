@@ -17,5 +17,8 @@ namespace OPP_Fundamentals_Class_Diagram
 		public bool IsVerified { get; set; }
 
 		public List<Post> Posts { get; set; } = new List<Post>();
+
+		public int VehicleId { get; set; }
+		public Vehicle Vehicle { get; set; } = null!;
 	}
 }

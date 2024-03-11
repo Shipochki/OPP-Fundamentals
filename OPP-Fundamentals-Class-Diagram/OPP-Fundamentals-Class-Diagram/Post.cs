@@ -18,7 +18,9 @@ namespace OPP_Fundamentals_Class_Diagram
 
 		public decimal PriceForSeat { get; set; }
 
-		public bool SpaceForBaggage { get; set; }
+		public bool Baggage { get; set; }
+
+		public bool Pets {  get; set; }
 
 		public int CountSeats { get; set; }
 

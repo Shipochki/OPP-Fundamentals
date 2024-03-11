@@ -71,8 +71,8 @@
     <Position X="9" Y="2.75" Width="1.5" />
     <AssociationLine Name="Post" Type="OPP_Fundamentals_Class_Diagram.Post" FixedToPoint="true">
       <Path>
-        <Point X="10.5" Y="4.224" />
-        <Point X="11.5" Y="4.224" />
+        <Point X="10.5" Y="4.261" />
+        <Point X="11.5" Y="4.261" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Creator" Type="OPP_Fundamentals_Class_Diagram.User" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
@@ -126,12 +126,12 @@
     <Position X="11.5" Y="3.5" Width="1.5" />
     <AssociationLine Name="Group" Type="OPP_Fundamentals_Class_Diagram.Group" FixedFromPoint="true">
       <Path>
-        <Point X="11.5" Y="3.763" />
-        <Point X="10.5" Y="3.763" />
+        <Point X="11.5" Y="3.776" />
+        <Point X="10.5" Y="3.776" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>iAACAEAEABCggAACEAAAAAAAAAACgBAAIAAAAAAAAIA=</HashCode>
+      <HashCode>iAACAEAEAACggABGEAAAAAAAAAACgBAAIAAAAAAAAIA=</HashCode>
       <FileName>Post.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -150,11 +150,12 @@
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAADAAAAAAAAAAAABAAAAAgAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAADAAAAAAAAAAAABAAAAAgAFAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Driver.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="User" />
+      <Property Name="Vehicle" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Posts" />
@@ -170,5 +171,22 @@
       <Property Name="User" />
     </ShowAsAssociation>
   </Class>
+  <Class Name="OPP_Fundamentals_Class_Diagram.Vehicle">
+    <Position X="13.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAABAAAAAAAAAAAAAAAAAAAAAAAAwgAAAEBAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Fuel" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="OPP_Fundamentals_Class_Diagram.Fuel">
+    <Position X="13.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Fuel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
