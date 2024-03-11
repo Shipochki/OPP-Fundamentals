@@ -22,8 +22,6 @@ namespace OPP_Fundamentals_Class_Diagram
 
 		public bool Pets {  get; set; }
 
-		public int CountSeats { get; set; }
-
 		public bool IsCompleted { get; set; }
 
 		public DateTime DateAndTime { get; set; }
